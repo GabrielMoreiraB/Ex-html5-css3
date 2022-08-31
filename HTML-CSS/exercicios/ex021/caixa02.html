@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif; 
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color:white ;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            background-color:rgb(172, 172, 172) ;
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            font-weight: normal;
+
+        }
+
+        nav > a::after{
+            content: '<<';
+        }
+        nav > a::before{
+            content: '>>';
+        }
+
+        main{
+            background-color:white ;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #assuntos {
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        article {
+            background-color:lightgray ;
+            padding: 5px;
+        }
+        article > aside {
+            background-color:rgb(189, 189, 189);
+        }
+
+        footer{
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tenologia</p>
+        </section>
+        <section>
+            <article id="noticias">
+                <h2>Noticia Sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores similique mollitia voluptatibus, deserunt in fugit officiis animi id dolorem nulla autem ullam repudiandae, assumenda rem tempora odit eos illo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, beatae! Incidunt odit doloribus, explicabo fugiat dolorem laudantium et eum animi quisquam laborum reprehenderit eos quam commodi labore ad modi est? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quod fuga dolor repellat soluta reprehenderit ex porro impedit laboriosam saepe sapiente, exercitationem debitis, optio temporibus. Id nemo nobis pariatur cupiditate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque autem asperiores nulla nesciunt et, molestiae reprehenderit rem totam, cum excepturi placeat sunt reiciendis assumenda iure odit vero earum nostrum quis!</p>
+                <aside>
+                    <p>Artigo escrito por Gabriel Moreira</p>
+                <picture>
+                    <img src="gabriel.jpeg" alt="eu em jpeg">
+                </picture>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> Desenvolvido por GM</p> 
+    </footer>
+</body>
+</html>
