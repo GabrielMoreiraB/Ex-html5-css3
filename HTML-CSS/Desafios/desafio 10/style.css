@@ -39,6 +39,20 @@ main {
     padding-left: 15px;
     padding-right: 15px;
     
- 
+}
+
+.video {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 850px;
+    height:395px;
+    background-color: #1a5b39;
+    
+}
+.tabela {
+    background-color: #96ebbf;
+    border-radius: 10px;
+    padding: 3px;
 }
 
