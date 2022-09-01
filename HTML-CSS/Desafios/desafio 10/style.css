@@ -38,6 +38,7 @@ main {
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 10px;
     
 }
 
@@ -56,3 +57,25 @@ main {
     padding: 3px;
 }
 
+.tabela > h3{
+background-color: #1a5b39;
+}
+
+.tabela > p > a {
+    color: #07351d;
+    text-decoration: none;  
+}
+.tabela > p > a::after {
+    
+}
+
+
+
+footer {
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    background-color: #1a5b39;
+    color: white;
+    margin: -8px;
+    text-align: center;
+    
+}
