@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
-    font-family:idroid ;
-    src: url('idroid');
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf');
     font-weight: bolder;
 }
 
@@ -51,7 +51,7 @@ main {
 }
 
 .degrade {
-    background-image: linear-gradient(90deg, #4eec9a, #4eec9a76,);
+    background-image: linear-gradient(90deg, #4eec9a, #4eec9a00,);
 }
 
 .superior {
