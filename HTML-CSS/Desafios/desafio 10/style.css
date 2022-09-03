@@ -41,17 +41,11 @@ main {
     margin: auto;
     text-align: justify;
     background-color: white;
-    
-    
 }
 
 .android {
     font-family: 'idroid';
     color: #1a5b39;
-}
-
-.degrade {
-    background-image: linear-gradient(90deg, #4eec9a, #4eec9a00,);
 }
 
 .superior {
@@ -60,6 +54,10 @@ main {
     padding-right: 15px;
 
 }
+
+.degrade {
+    background-image: linear-gradient(90deg, #4eec9a, #4eec9a00,);
+} 
 
 .video {
     text-align: center;
