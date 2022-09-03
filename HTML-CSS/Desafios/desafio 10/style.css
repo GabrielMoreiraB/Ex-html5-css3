@@ -56,8 +56,9 @@ main {
 }
 
 .degrade {
-    background-image: linear-gradient(90deg, #4eec9a, #4eec9a00,);
-} 
+    background-image: linear-gradient(to right, #4eec9a, #4eec9a00 );
+}
+
 
 .video {
     text-align: center;
