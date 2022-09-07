@@ -44,12 +44,27 @@ main {
     min-width: 320px;
     max-width: 850px;
     margin: auto;
-    text-align: justify;
     background-color: white;
     box-shadow:  0PX 0PX 10PX black;
     border-radius: 0px 0px 15px 15px;
 }
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    text-indent: 1em;
+    line-height: 1.3em;
+
+}
  
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f814f;
+    background-color: #c3eed8;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
 img {
     width: 100%;
 }
@@ -91,7 +106,7 @@ h3{
     border-radius: 15px 15px 0px 0px;
 }
 main img.pequena {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
