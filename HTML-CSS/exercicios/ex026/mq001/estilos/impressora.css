@@ -12,3 +12,7 @@ html{
     font-size: 1.5em;
     line-height: 1.5em;
 }
+
+article::after{
+    content: Eesse artigo foi impresso através do site www.asfvbsevb.com.br;
+}
