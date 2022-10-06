@@ -19,8 +19,24 @@ header>h1{
     text-align: center;
 }
 
+span{
+    color: white;
+    width: 100vw;
+    background-color: rgb(104, 104, 104);
+    text-align: center;
+    padding:  10px 10px 10px 0px;
+    border-top: 2px solid  lightgrey;
+    cursor: pointer;
+
+}
+
+span:hover{
+    background-color:white; 
+    color: black;
+}
+
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul {
